@@ -1,0 +1,35 @@
+* {
+   
+    font-size: 16px;
+    color: #333;
+  }
+  
+  body {
+    margin: 0;
+    height: 100vh;
+    padding: 0;
+    border: 0;
+
+  }
+  
+
+  .container {
+    display: inline-block;
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .container input {
+    position: absolute;
+    opacity: 0;
+  }
+
+
+
+
+
+  
+  
+
