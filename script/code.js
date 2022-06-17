@@ -63,8 +63,9 @@ calculateButton.addEventListener("click", ()=>{
 
     height = heightInput.value;
     weight = weightInput.value;
-    BMI = weight/((height/100)*2); 
-    result.innerText = BMI.toFixed(2);
+   let BMI = weight/((height/100)*2); 
+
+    result.innerText ='Your BMI is'.concat(BMI.toFixed(2));
 
     if(BMI < 18.5){
         statement.innerText = "Your BMI falls within the underweight range";    
@@ -75,6 +76,8 @@ calculateButton.addEventListener("click", ()=>{
     }else{
         statement.innerText = "Your BMI falls within the obese range";
     }
+
+   
 });
 
 

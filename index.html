@@ -43,25 +43,28 @@
         </form> -->
 
 
-        <div class="calculator-container">
+        <div class="container">
           <h1>BMI CALCULATOR</h1>
-          <p>Height in meters:</p>
-          <input class="height-input-field" type="text">
+          <p>Height in cm:</p>
+          <input class="height-input-field" type="text" required>
           <p>weight in kilograms:</p>
-          <input class="weight-input-field" type="text"><br>
+          <input class="weight-input-field" type="text" required><br>
           <div>
-            <input type="radio" >
+            <input type="radio" name="gender" >
            <span>Male</span>   
-           <input type="radio" >
+           <input type="radio" name="gender" >
            <span>Female</span>   
            
         </div>
         <p>Age:</p>
           <input class="age-input-field" type="text"> <br>
           <button class="calculate"> Calculate</button>
+
+          <h3 class="result"></h3>
+          <p class="result-statement"></p>
+
       </div>
-      <h3 class="result"></h3>
-      <p class="result-statement"></p>
+    
 
     <script src="./script/code.js"></script>
 </body>
